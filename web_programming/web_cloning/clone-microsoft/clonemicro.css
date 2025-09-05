@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px; /* Increased base font */
+    color: #262626;
+}
+
+ul li {
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+}
+
+.logo img {
+    width: 160px;
+    height: 34px;
+}
+
+.logo {
+    padding: 20px 10px;
+    width: 180px;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 20px 12px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navitems-left ul,
+.navitems-right ul {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.navitems {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.all_micr,
+.search {
+    border: none;
+    background-color: transparent;
+    padding: 20px;
+}
+
+.all_mic-img {
+    width: 14px;
+    height: 14px;
+}
+
+.search-img {
+    width: 24px;
+    height: 22px;
+}
+
+.cart-img {
+    width: 24px;
+    height: 18px;
+}
+
+.cart,
+.sign {
+    padding: 10px;
+}
+
+.sign-img {
+    width: 55px;
+    height: 50px;
+}
+
+.body {
+    background-image: url(back.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+}
+
+.seter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 24px;
+}
+
+.auto_play {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pause-icon {
+    display: flex;
+    gap: 6px;
+}
+
+.pause-icon div {
+    background-color: black;
+    width: 3px;
+    height: 16px;
+}
+
+#arrowl,
+#arrowr {
+    font-size: 36px;
+    color: #171717;
+    padding: 0 24px;
+}
+
+#circle {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 50%;
+    margin: 0 6px;
+}
+
+#circle:hover {
+    background-color: black;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    gap: 32px;
+}
+
+.products div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products div img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 12px;
+}
+
+.products div a u {
+    color: #0067b8;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    padding: 0 64px 64px;
+    gap: 32px;
+}
+
+.productbox {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+    border: 2px solid #f4f4f4;
+}
+
+.product div h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.product div img {
+    max-width: 100%;
+}
+
+.product div .para {
+    padding: 32px;
+    width: 300px;
+}
+
+.product div .para div {
+    font-size: 20px;
+}
+
+.product div #link {
+    margin-top: 12px;
+    padding: 20px;
+}
+
+.product div #link a {
+    font-size: 20px;
+    color: #fff;
+    padding: 14px 24px;
+    background-color: #0067B8;
+    display: inline-block;
+    width: auto;
+    border-radius: 4px;
+}
+
+/* Enlarged background section */
+.game {
+    background-image: url("Highlight-Slim-Multi-Canvas-Game-Pass-APR-2025_VP5-1596x600.avif");
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.game::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+}
+
+.gamebox {
+    position: relative;
+    left: -443px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 80px;
+    width: 600px;
+}
+
+.gamebox .para h2 {
+    color: #fff;
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.gamebox .para div {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.gamebox .para #link {
+    background-color: #005ca5;
+    padding: 16px 32px;
+    border-radius: 5px;
+}
+
+.gamebox .para #link a {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.for_business{
+    margin: 55px 18px;
+
+}
+.for_business div h2{
+    font-size:35px ;
+}
+.card{
+    width: 300px;
+    height: 48px;
+}
+.productboxb{
+   border: 2px solid #f4f4f4;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+}
+.productboxb div{
+    width: 300px;
+  
+}
+.apara{
+    padding:0px 24px;
+}
+.productboxb div h2{
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0px 0px 12px;
+}
+.productboxb div .para{
+    font-size: 22px;
+    font-weight: 400;
+    padding:0px;
+    padding-bottom: 20px;
+}
+
+.for{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+
+     
+
+
+.box{
+    background-color: #005ca5;
+    color: #fff;
+    max-width: 130px;
+    height: 30px;
+}
+.box a{
+    color: #fff;
+    font-size: 16px;
+}

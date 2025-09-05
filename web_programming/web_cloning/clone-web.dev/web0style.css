@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Google Sans", sans-serif;
+}
+.nav1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px 0 24px;
+    height: 48px;
+    position: sticky;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+}
+#n{
+    color:#5F6367;
+}
+.lnav1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    align-items: center;
+}
+.options ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.resources{
+    padding: 0px 0px 0px 24px;
+    font-weight:500;
+}
+.options li{
+    padding: 0px 24px;
+}
+.logo img{
+    max-width: 100%;
+    height: 38px;
+}
+.drop{
+    flex-wrap: wrap;
+    background-color: none;
+    width: 20px;
+    background-color: none;
+    padding-top:10px;
+    
+}
+
+.resources-btn{
+    padding:0;
+    border:none;
+    background-color: white;
+}
+.Search-img{
+    padding-top: 5px;
+    width: 20px;
+    height: 20px;
+}
+.search{
+    border-radius: 20px;
+    padding: 5px;
+    height: 36;
+    width: 200;
+    text-align: center;
+    font-size: large;
+    border:none;
+    background-color: #F5F6F7;
+}
+.rnav1{
+    display: flex;
+    gap:10px;
+    flex-direction: row;
+    justify-content: center;
+}
+.glob{
+    width: 30px;
+    height: 30px;
+}
+.language{
+    align-items: center;
+    display: flex;
+    border: 1px solid gray;
+}
+.signin{
+    align-items: center;
+    display: flex;
+    padding: 0px 8px;
+    font-size: 17px;
+}
+.link-nav2{
+    text-decoration: none;
+}
+.nav2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F5F6F7;
+    width: 100%;
+}
+.rnav2{
+    display: flex;
+    align-items: center;
+    padding: 0px 24px;
+    height: 48px;
+}
+.link-nav2{
+    color: rgb(32, 33, 36);
+    font-family: "Google Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+}
+.head{
+    justify-content: space-around;
+    font-size:64px;
+    font-weight: 700;
+}
+.learn-header{
+    width: 605px;
+    height: 400px;
+}
+.dev{
+    width: 100%;
+    height: auto;
+    
+}
+.dev-sub{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.course{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 120px;
+    margin-right: 120px;
+    gap: 20px;
+    justify-items: center;
+    padding: 40px 0px;
+}
+.coursel{
+    background-color: #FFFFFF;
+    border: 1px solid #F5F6F7;
+    height: 450px;
+    width: 370px;
+    border-radius: 40px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+
+}
+.coursel img{
+    height: 200px;
+    width: 320x;
+
+}
+.text{
+    padding-top: 40px;
+    text-decoration: none;
+}
+.text h2{
+    margin-bottom: 20px;
+}
+.java a {
+    text-decoration: none; /* Remove default underline */
+    color: #202124;
+}
+
+.java a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.course-btn{
+    margin-top: 30px;
+}
+.cbtn:hover{
+    border: 3px solid #202124;
+    color:#202124;
+}
+.cbtn{
+    border: 3px solid #1A73E8;
+    border-radius:25px;
+    margin:4px 4px 4px 12px;
+    padding: 12px 40px;
+    background-color: #FFFFFF;
+    color:#1A73E8;
+}
+.web img{
+    width: 150px;
+    height: 40px;
+}
+
+.web p{
+    padding-top: 10px;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 24px 0px;
+    align-items: start;
+    justify-items: center;
+}
+.last{
+   
+    padding: 5px 15px 5px 15px;
+}
+.last a{
+    text-decoration: none;
+    color: rgb(32, 33, 36);
+}
+.cont{
+    display: flex;
+    flex-direction:column;
+    line-height: 2;
+}
+.rel{
+    display: flex;
+    flex-direction:column;
+    line-height: 2;
+}
+.follow{
+    display: flex;
+    flex-direction:column;
+    line-height: 2;
+}
+.term-subl {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    padding:24px 24px;
+    justify-content: space-between;
+}
+.term-subl div{
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+}
+.term-subr{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
